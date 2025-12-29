@@ -1,27 +1,35 @@
-# MINI-AI-TASK-MANAGER
-Overview of the Project:
-The modern MIINI AI Task Manager web application is designed to help users manage their tasks efficiently by using a clean and intuitive interface. With the app, one is able to create, read, update, and organize tasks with ease, thereby making task management simple and effective.
+Overview
 
-Features:
+MIINI AI Task Manager is a full-stack web application to efficiently manage tasks. The backend is built with FastAPI (Python) and the frontend uses React.js.
 
-Add, view, and update tasks in real time.
+Setup Steps
+Backend
 
-Searching & filtering tasks easily.
+Navigate to the backend folder: cd backend
 
-Responsive design for desktop and mobile.
+Create and activate a virtual environment:
 
-AI-powered task management suggestions.
+python -m venv venv
 
-Technology Stack:
+source venv/bin/activate (Linux/Mac)
 
-Frontend: React.js, HTML, CSS, JavaScript
+venv\Scripts\activate (Windows)
 
-FastAPI (Python) - backed
+Install dependencies: pip install -r requirements.txt
 
-Database: SQLAlchemy with SQLite
+Run the backend server: uvicorn main:app --reload
+Access the API at http://127.0.0.1:8000
 
-API Integration: Axios for HTTP requests, React Router for navigation
+Frontend
 
-Implementation Details:
+Navigate to the frontend folder: cd frontend
 
-The backend is implemented by using FastAPI, which gives the RESTful APIs for performing operations on tasks. Database structure and operations are managed by SQLAlchemy. The frontend is done with React.js, getting dynamic forms and views for tasks. Axios connects the frontend with the backend to perform CRUD operations seamlessly. Purpose: It does prove that I can create a full-stack application, incorporate a React frontend into a Python FastAPI backend, and design an interface suitable for everyday use. So, all in all, this is a modern web development project that involves API integration and database management.
+Install dependencies: npm install
+
+Start the frontend: npm start
+Access the app at http://localhost:3000
+
+Dependencies
+
+Backend: FastAPI, SQLAlchemy, Uvicorn, Pydantic
+Frontend: React.js, Axios, React Router DOM
