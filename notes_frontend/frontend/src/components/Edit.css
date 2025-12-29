@@ -1,0 +1,109 @@
+.edit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 20px;
+  min-height: calc(100vh - 100px);
+  gap: 20px;
+}
+
+.edit h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.edit form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  max-width: 900px;
+}
+
+.edit .form-row {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.edit input {
+  flex: 1;
+  padding: 15px 20px;
+  font-size: 16px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+.edit textarea {
+  flex: 2;
+  padding: 15px 20px;
+  font-size: 16px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  min-height: 150px;
+  resize: vertical;
+}
+
+.edit .button-group {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.edit button {
+  padding: 15px 40px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #1e3a8a, #3730a3);
+  color: white;
+  cursor: pointer;
+}
+
+.edit button:hover {
+  background: linear-gradient(135deg, #3730a3, #1e3a8a);
+  transform: scale(1.05);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 80px;
+  background: linear-gradient(135deg, #1e3a8a, #3730a3);
+  border-bottom: 1px solid white;
+}
+
+.navbar .logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+}
+
+.navbar .nav-links {
+  display: flex;
+  gap: 50px;
+}
+
+.navbar .nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.navbar .nav-links a:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
