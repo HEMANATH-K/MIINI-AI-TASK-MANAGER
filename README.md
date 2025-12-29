@@ -1,4 +1,4 @@
-# MIINI-AI-TASK-MANAGER
+# MINI-AI-TASK-MANAGER
 Overview of the Project:
 The modern MIINI AI Task Manager web application is designed to help users manage their tasks efficiently by using a clean and intuitive interface. With the app, one is able to create, read, update, and organize tasks with ease, thereby making task management simple and effective.
 
